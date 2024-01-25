@@ -13,7 +13,7 @@ def exponent(base, exp):
     for _ in range(exp - 1):
         base *= input_base
         products.append(base)
-    print(products[-1])
+    print(input_base, "raised to the power of", exp, "is :", products[-1])
 
 exponent(input_base, input_exp)
 
