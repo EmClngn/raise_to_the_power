@@ -10,8 +10,8 @@ products = []
 # make an empty list for append
 # call the function
 def exponent(base, exp):
-    for _ in range(exp + 1):
-        base *= exp
+    for _ in range(exp - 1):
+        base *= input_base
         products.append(base)
     print(products[-1])
 
